@@ -19,7 +19,6 @@ const requestPermission = () => {
   });
 };
 
-new Notification(title,{body,})
 
 if ("Notification" in window) {
   requestPermission();
